@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+    <div class="form-student">
+        <h1>Student Infomation</h1>
+        <div class="form-input">
+            <label for="">Name</label>
+            <input type="text" placeholder="Enter student name" id="fullname"><br>
+            <span id="fullname-error" class="error"></span>
+        </div>
+        <div class="form-input">
+            <label for="">Email Address</label>
+            <input type="email" placeholder="Enter student email address" id="email"><br>
+            <span id="email-error" class="error"></span>
+        </div>
+        <div class="form-input">
+            <label for="">Phone Number</label>
+            <input type="number" placeholder="Enter student phone number" id="phone-number"><br>
+            <span id="number-error" class="error"></span>
+        </div>
+        <div class="form-input">
+            <label for="">Address</label>
+            <input type="text" placeholder="Enter student address" id="address"><br>
+            <span id="address-error" class="error"></span>
+        </div>
+        <div class="form-radio">
+            <label for="">Gender</label>
+            <input type="radio" name="gender" id="male" value="1"> Male
+            <input type="radio" name="gender" id="female" value="2">Female<br>
+            <span id="gender-error" class="error"></span>
+        </div>
+        <button onclick="save()">SAVE</button>
+    </div>
+
+    <div class="list-student">
+        <h1>Student List</h1>
+        <table width="100%" border="1" cellpadidng="5" cellspacing="0">
+            <tr>
+                <td>#</td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Phone Number</td>
+                <td>Address</td>
+                <td>Action</td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

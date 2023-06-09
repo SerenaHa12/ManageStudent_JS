@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.form-student{
+    width: 30%;
+    margin: 25px;
+    padding: 40px;
+    float: left;
+}
+.form-student h1{
+    padding: 0;
+    margin-top: 0;
+}
+.form-input {
+    margin: 8px 0px;
+}
+.form-input label{
+    width: 150px;
+    float: left;
+}
+.form-input input{
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+}
+.form-input span, .form-radio span{
+    color: red;
+    font-size: 12px;
+}
+.form-radio label{
+    width: 150px;
+    float: left;
+}
+.form-student button{
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 4px 140px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+    margin: 16px auto;
+}
+.list-student{
+    width: 50%;
+    float: left;
+    margin: 25px;
+    padding: 40px;
+}
