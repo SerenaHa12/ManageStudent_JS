@@ -17,7 +17,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
 </head>
-<body>
+<body onload="renderListStudent()">
     <div class="form-student">
         <h1>Student Infomation</h1>
         <div class="form-input">
@@ -49,7 +49,7 @@
         <button onclick="save()">SAVE</button>
     </div>
 
-    <div class="list-student">
+    <div class="list-student" id="list-student">
         <h1>Student List</h1>
         <table id="grid-students" width="100%" border="1" cellpadidng="5" cellspacing="0">
             <!-- <tr>
